@@ -21,7 +21,7 @@ export default function DraggableList({ items }) {
     if (!down) order.current = newOrder
   })
   return (
-    <div className="content" style={{ height: items.length * 100 }}>
+    <div className="content" >
       {springs.map(({ zIndex, shadow, y, scale }, i) => (
         <animated.div
           {...bind(i)}

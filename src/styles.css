@@ -1,25 +1,8 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  .draggable-main {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    user-select: none;
-    font-family: 'Raleway', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #f0f0f0;
-  }
-  
   .content {
     position: relative;
-    width: 320px;
-    height: 240px;
+    width: 33vw;
+    height: 100vh;
+    user-select: none;
   }
   
   .content > div {
